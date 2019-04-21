@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Fastty - Reserva tu motel favorito</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <style type="text/css">
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+    }
+
+    @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 1000px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 650px;
+      }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }
+   a:hover{
+      background-color: blueviolet; 
+      border-radius: 7px;
+      padding: 8px;
+      color:white;    
+  }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="../landing/index.html" style="background-color: blueviolet; border-radius: 7px;
+      padding: 5px;">
+        <strong>Fastty</strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio |              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nosotros">Sobre nosotros |</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#beneficios">Reserva |</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../socios/empresas.html">Quiero ser socio</a>
+          </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://www.facebook.com/fasttyapp" class="nav-link" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://twitter.com/fastty_app" class="nav-link" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+  
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!-- Full Page Intro -->
+  <div class="view full-page-intro" style="background-image: url('https://www.androidcentral.com/sites/androidcentral.com/files/styles/xlarge/public/article_images/2016/06/midngiht-city-material-wall.jpg?itok=s_cbP4x7'); background-repeat: no-repeat; background-size: cover;">
+
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+      <!-- Content -->
+      <div class="container">
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4 white-text text-center text-md-left">
+            <!--<img src="../landing/img/logo.png" class="imgLogo">-->
+            <h1 class="display-5 font-weight-bold" style="margin-left:1em;">Bienvenido a Fastty</h1>
+
+            <hr class="hr-light">
+
+            <p class="mb-4 d-none">
+              <strong>
+                <h4>Realiza la busqueda y reserva en tiempo real de tu motel más cercano, con la comodidad de tu celular y 100% confidencial.</h4>
+              </strong>
+            </p>
+
+          </div>
+          <!--Grid column-->
+          
+          <!--Grid column-->
+          <div class="col-md-6 col-xl-5 mb-4 formContact" style="margin-left: auto; margin-top: 5em;">
+
+            <!--Card-->
+            <div class="card shadowCard" id="inscripcion">
+              <!--Card content-->
+              <div class="card-body">
+                  <!-- Heading -->
+                  <h3 class="dark-grey-text text-center">
+                    <strong>Reserva el mejor Motel</strong>
+                  </h3>
+                  <hr>
+                  <div class="text-center">
+                    <button class="btn btn-lg btn-block btn-indigo">Reservar</button>
+                  </div>
+              </div>
+
+            </div>
+            <!--/.Card-->
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </div>
+      <!-- Content -->
+
+    </div>
+    <!-- Mask & flexbox options-->
+
+  </div>
+  <!-- Full Page Intro -->
+
+  <!--Main layout-->
+  <main>
+    <div class="container">
+
+      <hr class="my-5">
+
+      <!--Section: Main features & Quick Start-->
+      <section id="nosotros"> 
+
+        <h3 class="h3 text-center mb-5">Acerca de Fastty</h3>
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 px-4">
+
+            <!--First row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fa fa-code fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">¿Que hacemos?</h5>
+                <p class="grey-text">Conectar a tus moteles favoritos y más cercanos para que realices una reserva en tiempo real y 100% anonimo .</p>                
+              </div>
+             
+            </div>
+            <!--/First row-->
+
+            <div style="height:30px"></div>
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fa fa-book fa-2x blue-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Como lo hacemos</h5>
+                <p class="grey-text">Por medio de nuestras plataformas web.
+                </p>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <div style="height:30px"></div>
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fa fa-graduation-cap fa-2x cyan-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Soporte en tiempo real</h5>
+                <p class="grey-text">Contamos con un equipo de soporte para ayudarte en cualquier momento.</p>
+              </div>
+              
+            </div>
+            <!--/Third row-->
+            
+          </div>
+          <!--/Grid column-->
+          <div class="imgAbout"><img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png"></div>
+        </div>
+        <!--/Grid row-->
+
+      </section>
+      <!--Section: Main features & Quick Start-->
+
+      <hr class="my-5">
+
+      <!--Section: Not enough-->
+      <section id="beneficios">
+
+        <h2 class="my-5 h3 text-center">Beneficios</h2>
+
+        <!--First row-->
+        <div class="row features-small mb-5 mt-3 wow fadeIn">
+
+          <!--First column-->
+          <div class="col-md-4">
+            <!--First row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fa fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Reservas en tiempo real</h6>
+                <p class="grey-text">Realiza tu reserva en tiempo real de tu motel favorito.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fa fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Busqueda de Moteles</h6>
+                <p class="grey-text">Encontrarás un listado de Moteles y servicios de tu preferencia. 
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fa fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Obten descuentos increibles</h6>
+                <p class="grey-text">Encontraras descuentos imperdibles</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Third row-->
+
+            <!--Fourth row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fa fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Disponibilidad</h6>
+                <p class="grey-text">Verifica la disponibilidad, sabemos que cada minuto cuenta.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Fourth row-->
+          </div>
+          <!--/First column-->
+
+          <!--Second column-->
+          <div class="col-md-4 flex-center">
+            <img src="https://mdbootstrap.com/img/Others/screens.png" alt="MDB Magazine Template displayed on iPhone" class="z-depth-0 img-fluid">
+          </div>
+          <!--/Second column-->
+
+          <!--Third column-->
+          <div class="col-md-4 mt-2">
+            <!--First row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fa fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Confiabilidad</h6>
+                <p class="grey-text">Nuestros sistemas cuentan con la seguridad y confiabilidad de la tecnologia actual.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fa fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Soporte 24/7</h6>
+                <p class="grey-text">No te preocupes, siempre estaremos pendientes de ti.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Third row-->
+
+          </div>
+          <!--/Third column-->
+
+        </div>
+        <!--/First row-->
+
+      </section>
+      <!--Section: Not enough-->
+
+      <hr class="mb-5">
+
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+    <!--Call to action-->
+    <div class="text-center">
+      <button class="btn btn-lg  btn-indigo">Reservar</button>
+    </div>
+    <!--/.Call to action-->
+
+    <!-- Social icons -->
+    <div class="pb-4">
+      <a href="https://www.facebook.com/fasttyapp/" target="_blank">
+        <i class="fa fa-facebook mr-3"></i>
+      </a>
+
+      <a href="https://twitter.com/fastty_app" target="_blank">
+        <i class="fa fa-twitter mr-3"></i>
+      </a>
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2018 Copyright: Fastty 
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
